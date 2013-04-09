@@ -3,4 +3,4 @@
 # RoadTripBonanza is a jQueryMobile application designed especially for the iPhone.
 Bring fun back to road trips and help educate along the way!
 
-by [Ted Coleman](http://tedcoleman.me/).
+by [Ted Coleman](http://tedcoleman.me/) and everyone at [Moderob Labs](http://moderoblabs.com).
