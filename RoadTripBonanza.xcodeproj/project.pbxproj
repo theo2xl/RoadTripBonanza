@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB0985A41547227900A09524 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0985A31547227900A09524 /* Default.png */; };
+		FB0985A71547229500A09524 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0985A61547229500A09524 /* Default@2x.png */; };
 		FB47A261153CBF98008D893D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB47A260153CBF98008D893D /* Foundation.framework */; };
 		FB47A263153CBF98008D893D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB47A262153CBF98008D893D /* UIKit.framework */; };
 		FB47A265153CBF98008D893D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB47A264153CBF98008D893D /* CoreGraphics.framework */; };
@@ -35,9 +37,14 @@
 		FB47A2A1153CBF98008D893D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB47A2A0153CBF98008D893D /* AppDelegate.m */; };
 		FB47A2A4153CBF98008D893D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB47A2A3153CBF98008D893D /* MainViewController.m */; };
 		FB47A2A6153CBF98008D893D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB47A2A5153CBF98008D893D /* MainViewController.xib */; };
+		FB47A2AF153CC114008D893D /* www in Resources */ = {isa = PBXBuildFile; fileRef = FB47A2AE153CC114008D893D /* www */; };
+		FB582A231550727B007B2D51 /* PGLowLatencyAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = FB582A201550727B007B2D51 /* PGLowLatencyAudio.m */; };
+		FB582A241550727B007B2D51 /* PGLowLatencyAudioAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = FB582A221550727B007B2D51 /* PGLowLatencyAudioAsset.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB0985A31547227900A09524 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FB0985A61547229500A09524 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FB47A25C153CBF98008D893D /* RoadTripBonanza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadTripBonanza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB47A260153CBF98008D893D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FB47A262153CBF98008D893D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -52,10 +59,10 @@
 		FB47A274153CBF98008D893D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		FB47A276153CBF98008D893D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		FB47A278153CBF98008D893D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		FB47A27C153CBF98008D893D /* RoadTripBonanza-Info.plist */ = {isa = PBXFileReference; path = "RoadTripBonanza-Info.plist"; sourceTree = "<group>"; };
+		FB47A27C153CBF98008D893D /* RoadTripBonanza-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RoadTripBonanza-Info.plist"; sourceTree = "<group>"; };
 		FB47A27E153CBF98008D893D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FB47A280153CBF98008D893D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FB47A282153CBF98008D893D /* RoadTripBonanza-Prefix.pch */ = {isa = PBXFileReference; path = "RoadTripBonanza-Prefix.pch"; sourceTree = "<group>"; };
+		FB47A282153CBF98008D893D /* RoadTripBonanza-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoadTripBonanza-Prefix.pch"; sourceTree = "<group>"; };
 		FB47A283153CBF98008D893D /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<absolute>"; };
 		FB47A288153CBF98008D893D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FB47A28C153CBF98008D893D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -66,12 +73,17 @@
 		FB47A298153CBF98008D893D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		FB47A29A153CBF98008D893D /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		FB47A29C153CBF98008D893D /* PhoneGap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
-		FB47A29F153CBF98008D893D /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		FB47A29F153CBF98008D893D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		FB47A2A0153CBF98008D893D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		FB47A2A2153CBF98008D893D /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		FB47A2A2153CBF98008D893D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		FB47A2A3153CBF98008D893D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		FB47A2A5153CBF98008D893D /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		FB47A2A8153CBF98008D893D /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		FB47A2A8153CBF98008D893D /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		FB47A2AE153CC114008D893D /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
+		FB582A1F1550727B007B2D51 /* PGLowLatencyAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGLowLatencyAudio.h; sourceTree = "<group>"; };
+		FB582A201550727B007B2D51 /* PGLowLatencyAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGLowLatencyAudio.m; sourceTree = "<group>"; };
+		FB582A211550727B007B2D51 /* PGLowLatencyAudioAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGLowLatencyAudioAsset.h; sourceTree = "<group>"; };
+		FB582A221550727B007B2D51 /* PGLowLatencyAudioAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGLowLatencyAudioAsset.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +121,8 @@
 		FB47A24E153CBF97008D893D = {
 			isa = PBXGroup;
 			children = (
+				FB0985A61547229500A09524 /* Default@2x.png */,
+				FB0985A31547227900A09524 /* Default.png */,
 				FB47A27A153CBF98008D893D /* RoadTripBonanza */,
 				FB47A25F153CBF98008D893D /* Frameworks */,
 				FB47A25D153CBF98008D893D /* Products */,
@@ -146,6 +160,7 @@
 		FB47A27A153CBF98008D893D /* RoadTripBonanza */ = {
 			isa = PBXGroup;
 			children = (
+				FB47A2AE153CC114008D893D /* www */,
 				FB47A283153CBF98008D893D /* PhoneGap.framework */,
 				FB47A285153CBF98008D893D /* Resources */,
 				FB47A29E153CBF98008D893D /* Classes */,
@@ -229,6 +244,10 @@
 		FB47A2A7153CBF98008D893D /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				FB582A1F1550727B007B2D51 /* PGLowLatencyAudio.h */,
+				FB582A201550727B007B2D51 /* PGLowLatencyAudio.m */,
+				FB582A211550727B007B2D51 /* PGLowLatencyAudioAsset.h */,
+				FB582A221550727B007B2D51 /* PGLowLatencyAudioAsset.m */,
 				FB47A2A8153CBF98008D893D /* README */,
 			);
 			name = Plugins;
@@ -299,6 +318,9 @@
 				FB47A29B153CBF98008D893D /* Capture.bundle in Resources */,
 				FB47A29D153CBF98008D893D /* PhoneGap.plist in Resources */,
 				FB47A2A6153CBF98008D893D /* MainViewController.xib in Resources */,
+				FB47A2AF153CC114008D893D /* www in Resources */,
+				FB0985A41547227900A09524 /* Default.png in Resources */,
+				FB0985A71547229500A09524 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +350,8 @@
 				FB47A281153CBF98008D893D /* main.m in Sources */,
 				FB47A2A1153CBF98008D893D /* AppDelegate.m in Sources */,
 				FB47A2A4153CBF98008D893D /* MainViewController.m in Sources */,
+				FB582A231550727B007B2D51 /* PGLowLatencyAudio.m in Sources */,
+				FB582A241550727B007B2D51 /* PGLowLatencyAudioAsset.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Brian Blitzer (35V97243TK)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -434,6 +459,7 @@
 					/usr/lib/libSystem.B.dylib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "EEB4C1CC-7EA5-45C7-A05A-B7E9DCCEA987";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -443,6 +469,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Brian Blitzer (35V97243TK)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks;
@@ -461,6 +488,7 @@
 					/usr/lib/libSystem.B.dylib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "EEB4C1CC-7EA5-45C7-A05A-B7E9DCCEA987";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -486,6 +514,7 @@
 				FB47A2AD153CBF98008D893D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

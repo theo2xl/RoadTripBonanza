@@ -1,0 +1,171 @@
+div.hr { 
+    background: url(../images/divider@2x.png) no-repeat scroll center;
+    background-width: 280px auto;
+    padding-top:4px; padding-bottom: 0px;
+}
+
+[data-role="page"] {
+	text-align: center;
+	background: url(../images/backgrounds/main-bg@2x.png) center top no-repeat;
+	background-size: 320px auto;
+}
+
+[data-role="page"]#home {
+	text-align: center;
+	background: url(../images/backgrounds/boy-girl-bg@2x.png) center top no-repeat;
+	background-size: 320px auto;
+}
+
+[data-role="page"]#categories {
+	text-align: center;
+	background: url(../images/backgrounds/categories-bg@2x.png) center top no-repeat;
+    background-size: 320px auto;
+}
+
+.road-scout {
+	background: url(../images/roadscout-bg@2x.png) center top no-repeat;
+    background-size: 300px auto;
+	position: relative;
+	top: 80px;
+	padding-top: 30px;
+	border: 0px solid black;
+}
+
+.categories-game {
+	background: url(../images/categories-bg@2x.png) center top no-repeat;
+    background-size: 300px auto;
+	position: relative;
+	top: 80px;
+	padding-top: 30px;
+	border: 0px solid black;
+}
+.act-the-part {
+	background: url(../images/act-the-part-bg@2x.png) center top no-repeat;
+    background-size: 300px auto;
+	position: relative;
+	top: 80px;
+	padding-top: 30px;
+	border: 0px solid black;
+}
+.fun-fact {
+	background: url(../images/fun-fact-bg@2x.png) center top no-repeat;
+    background-size: 300px auto;
+	position: relative;
+	top: 80px;
+	padding-top: 30px;
+	border: 0px solid #fff;
+	text-align: center;
+}
+.the-end {
+	background: url(../images/the-end-bg@2x.png) center top no-repeat;
+    background-size: 300px auto;
+	position: relative;
+	top: 80px;
+	padding-top: 30px;
+	border: 0px solid #fff;
+	text-align: center;
+}
+
+div.modal {
+	background: url(../images/pop-up-bg@2x.png) center top no-repeat;
+    background-size: 300px auto;
+	position: relative;
+	top:80px;
+}
+
+#logo {
+	margin: 0 auto;
+	background: url(../images/logo@2x.png) center top no-repeat;
+	background-size: 310px auto;
+	z-index: 100;
+}
+
+.play-btn {
+	margin: 0 auto;
+	background: url(../images/buttons/play-button@2x.png) center top no-repeat;
+    background-size: 105px auto;
+	postion: relative;
+	top: -40px;
+	left: 0px;
+	z-index: 101;
+}
+.labs-btn {
+	background: url(../images/buttons/labs-button@2x.png) center top no-repeat;
+    background-size: 66px auto;
+	float: left;
+}
+.help-btn {
+	background: url(../images/buttons/help-button@2x.png) center top no-repeat;
+    background-size: 41px auto;
+	float: left;
+}
+.games-btn {
+	background: url(../images/buttons/games-button@2x.png) center top no-repeat;
+    background-size: 105px auto;
+}
+.done-btn {
+	background: url(../images/buttons/done-button@2x.png) center top no-repeat;
+    background-size: 105px auto;
+}
+.next-btn {
+	background: url(../images/buttons/next-button@2x.png) center top no-repeat;
+    background-size: 105px auto;
+}
+.back-btn {
+	background: url(../images/buttons/back-button@2x.png) center top no-repeat;
+    background-size: 66px auto;
+}
+.foundit-btn {
+	background: url(../images/buttons/found-it-button@2x.png) center top no-repeat;
+    background-size: 105px auto;
+}
+.add-player-btn {
+	background: url(../images/buttons/add-player-button@2x.png) center top no-repeat;
+    background-size: 105px auto;
+}
+.ok-btn {
+	background: url(../images/buttons/ok-button@2x.png) center top no-repeat;
+    background-size: 105px auto;
+}
+.play-again-btn {
+	background: url(../images/buttons/play-again-button@2x.png) center top no-repeat;
+    background-size: 133px auto;
+}
+.home-btn {
+	background: url(../images/buttons/home-button@2x.png) center top no-repeat;
+    background-size: 105px auto;
+}
+.finished-btn {
+	background: url(../images/buttons/finished-button@2x.png) center top no-repeat;
+    background-size: 105px auto;
+}
+.skip-btn {
+	background: url(../images/buttons/skip-button@2x.png) center top no-repeat;
+    background-size: 105px auto;
+}
+.stop-record-btn {
+	background: url(../images/buttons/stop-recording-button@2x.png) center top no-repeat;
+	background-size: 142px auto;
+}
+.quit-btn {
+	background: url(../images/buttons/quit-button@2x.png) center top no-repeat;
+	background-size: 106px auto;
+}
+.audio-btn {
+	background: url(../images/buttons/audio-button@2x.png) center top no-repeat;
+    background-size: 54px auto;
+}
+
+#record-btn.record-disabled {
+	background: url(../images/buttons/microphone-button-disabled@2x.png) center top no-repeat;
+	background-size: 71px auto;
+}
+#record-btn.record-enabled {
+	background: url(../images/buttons/microphone-button@2x.png) center top no-repeat;
+    background-size: 71px auto;
+}
+#record-btn.recording {
+	background: url(../images/buttons/microphone-button-green@2x.jpg) center top no-repeat;
+	height: 71px;
+	width: 71px;
+}
